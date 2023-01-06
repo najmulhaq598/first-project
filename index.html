@@ -5,42 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProjectOne</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- hEADER aREA sTART hERE -->
-    <header>
-        <div class="container">
-          <div class="menubar">
-            <div class="logo">
-                <a href="#"><img src="img/logo.webp" alt=""></a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a  href="#" style="color:#8492FF;">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-          </div>
-        </div>
-    </header>
-<!-- hEADER aREA sTART hERE -->
+<!-- hEADER aREA eND hERE -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <img src="img/logo.webp" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main__menu">
+          <li class="nav-item">
+            <a class="nav-link " style="color: #8492FF;"aria-current="page" href="#">Home</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">About</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Services</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Portfolio</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Pricing</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Contact Us</a>
+         </li>
+        </ul>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- nAV aREA eND hERE -->
 
 <!-- hERO aREA sTART hERE -->
     <section class="hero-area">
         <div class="container">
-            <div class="hero__wraper">
-                <div class="hero__left">
+            <div class=" row ">
+                <div class="col-md-6 hero__left">
                     <h3>THIS IS ME</h3>
                     <h1>PHILIP GILBERT</h1>
                     <p>You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.</p>
                     <input type="button" value="DISCOVER NOW">
                 </div>
-                <div class="hero__right">
+                <div class="col-md-6 hero__right">
                     <img src="img/man.webp" alt="">
                 </div>
             </div>
@@ -50,11 +64,11 @@
 <!-- aBOUT aREA sTART hERE -->
     <section class="about-area">
         <div class="container">
-            <div class="about__wraper">
-                <div class="about__left">
+            <div class=" row ">
+                <div class=" col-md-6 about__left">
                     <img src="img/man2.webp" alt="">
                 </div>
-                <div class="about__right">
+                <div class=" col-md-6 about__right">
                     <h3>ABOUT ME</h3>
                     <h2>PERSONAL DETAILS</h2>
                     <p>Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -121,20 +135,20 @@
 <!--pROJECT aREA sTART hERE -->
 <section class="project-area">
     <div class="container">
-        <div class="project__box__wraper">
-            <div class="project__box">
+        <div class=" row project__box__wraper">
+            <div class="col-md-3 project__box">
                 <h1>2536</h1>
                 <p>Project complete</p>
             </div>
-            <div class="project__box">
+            <div class=" col-md-3 project__box">
                 <h1>6784</h1>
                 <p>Happy Clients</p>
             </div>
-            <div class="project__box">
+            <div class="col-md-3 project__box">
                 <h1>2239</h1>
                 <p>Cups of Coffee</p>
             </div>
-            <div class="project__box">
+            <div class="col-md-3 project__box">
                 <h1>434</h1>
                 <p>Real Professionals</p>
             </div>
@@ -267,20 +281,20 @@
 <!--fOOTER aREA sTART hERE -->
 <footer class="footer-area">
     <div class="container">
-        <div class="footer__content_wraper">
-            <div class="content__left">
+        <div class=" row footer__content_wraper">
+            <div class=" col-md-4 content__left">
                 <h3>About Me</h3>
                 <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.</p>
                 <br>
                 <p>Copyright ©2021 All rights reserved | Najmul Haque</p>
             </div>
-            <div class="content__midle">
+            <div class="col-md-4 content__midle">
                 <h3>Newsletter</h3>
                 <p>Stay updated with our latest trends</p>
                 <input type="Email" name="" id="" placeholder="Enter Email Address">
                 <button type="submit"> Submit</button>
             </div>
-            <div class="content__right">
+            <div class="col-md-4 content__right">
                 <h3>Follow Me</h3>
                 <p>Let us be social</p>
             </div>
@@ -288,5 +302,7 @@
     </div>
 </footer>
 <!--fOOTER aREA eND  hERE -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
