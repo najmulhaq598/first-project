@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* hEADER sTART hERE */
+header{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 5px 10px 30px rgb(130 147 255 / 30%);
+}
+.menubar{
+    overflow: hidden;
+}
+.menubar .logo{
+    float: left;
+    width: 30%;
+    padding-top: 15px;
+}
+.menubar .logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(92, 92, 92);
+}
+
+
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left ; 
+    padding: 20px 0px 20px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    border-radius: 5px;
+    color:rgb(92, 92, 92);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold; 
+}
+.menu ul li :hover{
+    color: #8492FF;
+    transition: 0.3s;
+}
+/*  hEADER eND hERE */
+
+/* hERO sTART hERE */
+.hero-area{
+    background: #F9F9FF;
+    width: 100%;
+    height: 695px;
+    padding-top: 80px;
+}
+.hero__wraper{
+    overflow: hidden;
+}
+.hero__left{
+    width: 50%;
+    float: left;
+    padding-top: 60px;
+}
+.hero__left h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 75px;
+}
+.hero__left p{
+    font-size: 16px;
+    color: rgba(78, 78, 78, 0.7);
+    width: 80%;
+    margin-top: 50px;
+    line-height: 20px;
+}
+.hero__left h1{
+    font-size: 65px;
+    margin-top: 50px;
+}
+.hero__left input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: #8491FF;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.hero__left input:hover{
+    box-shadow: 5px 10px 30px rgb(130 147 255 / 50%);
+    transition: all 0.3s ease-in 0.1s;
+}
+.hero__right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.hero__right img{
+    max-width: 100%;
+    height: auto;
+}
+/* hERO  eND  hERE*/
+
+/* aBOUT sTART hERE*/
+.about-area{
+    width: 100%;
+    height: 450px;
+    padding-top: 80px;
+}
+.about__wraper{
+    overflow: hidden;
+}
+.about__wraper .about__left{
+    width: 50%;
+    float: left;
+}
+.about__wraper .about__left img{
+    max-width: 100%;
+    height: auto;
+}
+.about__wraper .about__right{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+} 
+.about__wraper .about__right h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 25px;
+}
+.about__wraper .about__right h2{
+    font-size: 40px;
+    margin-top: 30px;
+    ;
+}
+.about__wraper .about__right p{
+    font-size: 16px;
+    color: rgba(78, 78, 78, 0.7);
+    margin-top: 30px;
+    line-height: 20px;
+}
+.about__wraper .about__right input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: #8491FF;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.about__wraper .about__right input:hover{
+    box-shadow: 5px 10px 30px rgb(130 147 255 / 50%);
+    transition: all 0.3s ease-in 0.1s;
+}
+/* aBOUT eND hERE*/
+
+/* sERVICE sTART hERE*/
+
+.service-area{
+    width: 100%;
+    padding-top: 80px;
+}
+.service-area h1{
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+}
+.service-area  p{
+    font-size: 16px;
+    color: rgba(78, 78, 78, 0.7);
+    line-height: 25px;
+    text-align: center;
+}
+.service__box__wraper{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.service__box__wraper .box {
+    width: 320px;
+    text-align: center;
+    margin: 0 10px;
+    margin-top: 70px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    padding: 50px 44px;
+    border-radius: 10px;
+}
+.box__thumb{
+    opacity: 80%;
+}
+.box__thumb:hover{
+    color: #8491FF;
+    cursor: pointer;
+}
+.box__thumb img{
+    width: 30px;
+    height: auto;
+    ;
+}
+.box__thumb h3{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.service__box__wraper .box p{
+    font-size: 14px;
+    color: rgba(78, 78, 78, 0.7);
+    line-height: 20px;
+}
+/* sERVICE eND hERE*/
+
+/* pROJECT sTART hERE*/
+.project-area{
+    width: 100%;
+    background: #8492FF;
+    margin-top: 80px;
+}
+.project__box__wraper{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.project__box{
+    width: 25%;
+    padding: 100px 20px;
+    float: left;
+    text-align: center;
+}
+.project__box__wraper .project__box h1{
+    font-size: 40px;
+    color: #fff;
+    line-height: 70px;
+}
+.project__box__wraper .project__box p{
+    font-size: 16px;
+    color: #fff;
+}
+
+/* pROJECT eND hERE*/
+
+/* fUTURE sTART hERE*/
+.future-area{
+    width: 100%;
+    padding-top: 80px;
+
+}
+.future-area h1{
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+}
+.future-area p{
+    font-size: 16px;
+    color: rgba(78, 78, 78, 0.7);
+    line-height: 25px;
+    text-align: center;
+}
+.future__box__wraper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+
+}
+.future__box{
+    text-align: center;
+    width: 320px;
+    height: 400px;
+}
+.future__box figure {
+    width: 320px;
+    height: 319px;
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    border-radius: 5px;
+}
+.future__box figure:hover img{
+    opacity: .3;
+    transition: all .3s ease-in-out;
+}
+.future__box figure img{
+    max-width: 100%;
+    height: auto;
+}
+.future__box h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* fUTURE eND hERE*/
+
+/* pLAN sTART hERE*/
+.plan-area{
+    width: 100%;
+    padding-top: 80px;
+}
+.plan-area h1{
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.plan-area .plan__p{
+    font-size: 16px;
+    color: rgba(78, 78, 78, 0.7);
+    line-height: 25px;
+    text-align: center;
+}
+.plan-area .plan__box__wraper{
+    background: #F9F9FF;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.plan__box__wraper .plan__box{
+    text-align: center;
+    width: 250px;
+    height: auto;
+    padding: 20px;
+
+}
+.plan__box__wraper .plan__box h2{
+    font-size: 22px;
+    background-color: #e5e7ff38;
+    border-radius: 50%;
+    padding: 18px;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.plan__box__wraper .plan__box h3 {
+    font-size: 20px;
+    padding-top: 15px;
+}
+.plan__box__wraper .plan__box p{
+    font-size: 14px;
+    padding: 10px 0;
+}
+.plan__box__wraper .plan__box h4{
+    font-size: 30px;
+    padding: 25px;
+}
+.plan__box__wraper .plan__box input{
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5%;
+    background: #8293FF;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.plan__box__wraper .plan__box:hover{
+    background: linear-gradient( #8490ff 40%, #62bdfc 100%);
+    color: #fff;
+    border-radius: 5%;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+}
+.plan__box__wraper .plan__box:hover input{
+    background: #fff;
+    color: #333 ;
+}
+/* pLAN eND hERE*/
+
+/* fOOTER sTART hERE*/
+.footer-area{
+    width: 100%;
+    margin-top: 80px;
+    background: #04091E;
+}
+.footer__content_wraper{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 100px 0;
+}
+.footer__content_wraper h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.footer__content_wraper p{
+    font-size: 14px;
+    color:rgb(100, 100, 100);
+    line-height: 20px;
+    width: 80%;
+}
+.footer__content_wraper input{
+    outline: none;
+    padding: 6px 15px 6px 5px;
+    border-radius: 2px;
+    margin-top: 15px;
+    border: none;
+}
+.footer__content_wraper button{
+    color: #fff;
+    padding: 5px 5px;
+    background: #8492FF;
+    cursor: pointer;
+
+}
+.content__left{
+    width: 40%;
+}
+.content__left h3{
+
+}
+.content__midle{
+    width: 35%;
+}
+.content__right{
+    float: right;
+    width: 25%;
+}
+/* fOOTER eND hERE*/
+
+
